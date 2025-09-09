@@ -36,7 +36,7 @@ Additional capabilities of the Help Button System include:
 ## Technologies.
 The Maker Nexus Help Button System leverages key technologies that are useful for other projects:
 
-1.  LoRa technology provies low power, very long range communication of short messages.  Help Buttons are adapted from LoRa-based,
+1.  LoRa technology provides low power, very long range communication of short messages.  Help Buttons are adapted from LoRa-based,
 battery operated sensors that we have developed for use on multiple projects.
 
 2. Particle technology, including cloud based publish and subscribe, webhooks, and Particle's REST API.  The Help Button System
