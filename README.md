@@ -21,7 +21,7 @@ Battery operated wireless "Help Buttons" are placed throughout the Maker Nexus f
 line of sight of any work location within the facility.  Help Buttons are programmed (via jumpers) to identify specific locations
 within Maker Nexus, e.g. "woodshop".  When a member presses a Help Button, a wireless LoRa message is sent to a central Hub.  LoRa technology
 allows messages to get through to the Hub across firewalls and other barriers within the large facility.  The LoRa message contains
-a location code for the Help Button.
+a location code for the Help Button. Because the Help Buttons are battery powered, they can easily be placed anywhere in the facility.
 
 The Hub receives messages from Help Buttons.  Software in the Hub validates and replies to the Help Button messages.  The Hub publishes
 this information to the Particle Cloud.  "Annunciator" devices within the Maker Nexus facility use Particle technology to subscribe
