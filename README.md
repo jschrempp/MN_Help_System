@@ -21,16 +21,16 @@ Battery operated wireless "Help Buttons" are placed throughout the Maker Nexus f
 line of sight of any work location within the facility.  Help Buttons are programmed (via jumpers) to identify specific locations
 within Maker Nexus, e.g. "woodshop".  When a member presses a Help Button, a wireless LoRa message is sent to a central Hub.  LoRa technology
 allows messages to get through to the Hub across firewalls and other barriers within the large facility.  The LoRa message contains
-a location code for the Help Button.
+a location code for the Help Button. Because the Help Buttons are battery powered, they can easily be placed anywhere in the facility.
 
-The Hub receives messages from Help Buttons.  Software in the Hub validates and replies to the Help Button messages.  The Hub publishes
-this information to the Particle Cloud.  "Annunciator" devices within the Maker Nexus facility use Particle technology to subscribe
+The Hub receives LoRa messages from Help Buttons.  Software in the Hub validates and replies to the Help Button messages.  The Hub publishes
+this information to the Particle Cloud.  "Annunciator" devices within the Maker Nexus facility use Particle.io technology to subscribe
 to Hub-published events.  Annunciators are placed throughout Maker Nexus so that audible announcements that are played through 
-intenal loadspeakers can be heard anywhere within the facility.  The MOD can then respond to the member's request for assistance
-by going to the announced location of the Help Button.
+intenal loudspeakers can be heard anywhere within the facility.  The MOD can then respond to the member's request for assistance
+by going to the announced location.
 
 Additional capabilities of the Help Button System include:
-1. An Android app that simulates Help Button messages at the Hub and allows an MOD to play pre-recorded administrative messages on the Annunciators.
+1. An Android app that simulates Help Button messages to the Hub and allows an MOD to play pre-recorded administrative messages on the Annunciators.
 2. An "Event Timer" that automates playing of certain administrative messages through the Annunciators at specific times of the day.
 
 ## Technologies.
